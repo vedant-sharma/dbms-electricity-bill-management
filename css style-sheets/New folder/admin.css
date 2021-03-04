@@ -1,0 +1,73 @@
+<style>
+body {
+	padding: 0;
+	margin: 0;
+	//background-color: grey;
+	background-image:url("images/10120_hi-res.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	  
+}
+div.adm {
+	text-align: center;
+	position: relative;
+	top: 120px;
+ //border:2px solid grey;
+	padding: 2px;
+}
+input[type=text], input[type=password] {
+	width: 30%;
+	height: 45px;
+	padding: 2px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 2px solid white;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	background:#F1F1F1;
+	font-color:inherit;
+}
+input[type=submit] {
+	padding: 5px;
+	height: 42px;
+	font-size: 18px;
+	font-variant: small-caps;
+	font-style: inherit;
+	border-radius: 12px;
+	border: 3px solid white;
+	margin-top: 20px;
+	text-decoration:blink;
+	width: 12%;
+	color: white;
+	background:inherit;
+	opacity: 0.7;
+	font-weight: bold;
+}
+//input[type=text]:hover, input[type=password]:hover {
+	border: 2px solid white;
+}
+input[type=submit]:hover {
+	opacity: 1.0;
+}
+section.top {
+	margin-top: 30px;
+ //border:2px solid grey;
+	text-align: center;
+}
+section.top i {
+	color: white;
+	font-size: 1200%;
+}
+
+section.top span {
+	color: white;
+	font-variant: small-caps;
+	font-size: 270%;
+	margin-top: 50px;
+	font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+</style>
